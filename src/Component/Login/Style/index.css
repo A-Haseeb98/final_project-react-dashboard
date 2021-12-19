@@ -1,0 +1,61 @@
+.header{
+    background-color: green;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+.header h1 {
+    font-size: 51px;
+    margin: 0%;
+    padding: 0%;
+    line-height: 80px;
+}
+.body_container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_container{
+    background-color: green;
+    width: 30%;
+    /* margin: auto; */
+    margin-top: 2%;
+    padding: 30px 60px;
+    border-radius: 10px;
+}
+.login_container input{
+    height: 40px;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    margin-top: 0px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 17px;
+}
+.login_container label{
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 3px;
+    color: white;
+    font-size: 17px;
+
+}
+.login_container button{
+    height: 40px;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    background-color: rgb(11, 56, 11);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+
+
